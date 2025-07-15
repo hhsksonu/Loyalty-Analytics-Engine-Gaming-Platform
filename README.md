@@ -20,6 +20,16 @@ It includes user behavior analysis, slot-based time segmentation, loyalty point 
 
 ---
 
+## 🚀 Key Highlights of the Project
+
+- ✅ Designed a full loyalty point analytics engine for a real-money gaming platform
+- 🧮 Built dynamic point calculation based on user deposits, withdrawals, and gameplay activity
+- ⏱️ Implemented slot-based analysis (S1/S2) using time-based filtering
+- 📊 Ranked users monthly and distributed ₹50,000 bonus using proportional fairness
+- ⚖️ Evaluated and improved the reward system to prevent exploitation
+- 🧠 Learned real-world data cleaning, business rule translation, and behavioral analysis
+
+
 ## 📁 Project Files
 
 | File | Description |
