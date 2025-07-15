@@ -37,6 +37,9 @@ It includes user behavior analysis, slot-based time segmentation, loyalty point 
 | `Loyalty_Analytics_Engine_Gaming_Platform.ipynb` | Full Jupyter/Colab notebook implementation |
 | `Loyalty_Analytics_Engine_Gaming_Platform_Report.pdf` | Final written report with explanations |
 | `requirements.txt` | Python dependencies |
+| `images/slot_loyalty_output.png` | Screenshot: Slot-based loyalty calculation output |
+| `images/monthly_leaderboard_loyalty_points_output.png` | Screenshot: Monthly leaderboard of loyalty points |
+| `images/bonus_distribution_output.png` | Screenshot: Bonus distribution for Top 50 players |
 
 ---
 
@@ -74,6 +77,32 @@ Loyalty Points =
 - Real-world data cleaning (non-standard headers, slot segmentation)
 - Translating business logic into Pythonic functions
 - Reward system design & ethical evaluation
+
+---
+
+## 📸 Screenshots
+
+### 🔹 Slot-Based Loyalty Points (Part A – Q1)
+
+The system calculates loyalty points based on specific dates and time slots (S1 / S2).
+
+![Slot Loyalty Output](images/slot_loyalty_output.png)
+
+---
+
+### 🔹 Monthly Loyalty Leaderboard (Part A – Q2)
+
+This leaderboard ranks users based on loyalty points earned throughout the month.
+
+![Monthly Leaderboard Output](images/monthly_leaderboard_loyalty_points_output.png)
+
+---
+
+### 🔹 Bonus Distribution to Top 50 Players (Part B)
+
+Bonus of ₹50,000 is distributed proportionally to the top 50 users based on their loyalty points.
+
+![Bonus Distribution Output](images/bonus_distribution_output.png)
 
 ---
 
