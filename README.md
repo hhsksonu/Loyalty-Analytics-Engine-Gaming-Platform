@@ -1,11 +1,11 @@
-# 🎯 Loyalty Analytics Engine – Real-Money Gaming Platform
+# Loyalty Analytics Engine – Real-Money Gaming Platform
 A data analytics solution for a real-money gaming platform to compute loyalty points, analyze user activity by time slots, allocate bonus rewards, and evaluate reward fairness.
 
-## 📄 Assignment Dataset & Instructions
+## Assignment Dataset & Instructions
 
 This project is based on a real-world internship assignment involving player activity tracking and loyalty point systems.
 
-📝 [View Assignment Instructions & Raw Dataset (Google Sheets)](https://docs.google.com/spreadsheets/d/1LQzDOnIMUm81bLXlj6tzM_qCvUHO2ghHFMY5RW90V9k/edit?gid=1868309109#gid=1868309109)
+[View Assignment Instructions & Raw Dataset (Google Sheets)](https://docs.google.com/spreadsheets/d/1LQzDOnIMUm81bLXlj6tzM_qCvUHO2ghHFMY5RW90V9k/edit?gid=1868309109#gid=1868309109)
 
 The Google Sheet contains:
 - Problem Statement & Formulas
@@ -20,17 +20,17 @@ It includes user behavior analysis, slot-based time segmentation, loyalty point 
 
 ---
 
-## 🚀 Key Highlights of the Project
+## Key Highlights of the Project
 
-- ✅ Designed a full loyalty point analytics engine for a real-money gaming platform
-- 🧮 Built dynamic point calculation based on user deposits, withdrawals, and gameplay activity
-- ⏱️ Implemented slot-based analysis (S1/S2) using time-based filtering
-- 📊 Ranked users monthly and distributed ₹50,000 bonus using proportional fairness
-- ⚖️ Evaluated and improved the reward system to prevent exploitation
-- 🧠 Learned real-world data cleaning, business rule translation, and behavioral analysis
+- Designed a full loyalty point analytics engine for a real-money gaming platform
+- Built dynamic point calculation based on user deposits, withdrawals, and gameplay activity
+- Implemented slot-based analysis (S1/S2) using time-based filtering
+- Ranked users monthly and distributed ₹50,000 bonus using proportional fairness
+- Evaluated and improved the reward system to prevent exploitation
+- Learned real-world data cleaning, business rule translation, and behavioral analysis
 
 
-## 📁 Project Files
+## Project Files
 
 | File | Description |
 |------|-------------|
@@ -43,7 +43,7 @@ It includes user behavior analysis, slot-based time segmentation, loyalty point 
 
 ---
 
-## 📊 Loyalty Formula Used
+## Loyalty Formula Used
 Loyalty Points =
 0.01 × Deposit Amount +
 0.005 × Withdrawal Amount +
@@ -52,14 +52,14 @@ Loyalty Points =
 
 ---
 
-## ✅ Features Implemented
+## Features Implemented
 
-- 📥 **Google Sheet Integration** via GSpread
-- ⏱️ **Time Slot Calculation (S1: 12AM–12PM, S2: 12PM–12AM)**
-- 🎮 **Game, Deposit, Withdrawal data aggregation**
-- 📈 **Monthly loyalty point leaderboard**
-- 💸 **Bonus Distribution Strategy (Top 50 players)**
-- ⚖️ **Fairness Analysis** of loyalty system and improvement suggestions
+-  **Google Sheet Integration** via GSpread
+-  **Time Slot Calculation (S1: 12AM–12PM, S2: 12PM–12AM)**
+-  **Game, Deposit, Withdrawal data aggregation**
+-  **Monthly loyalty point leaderboard**
+-  **Bonus Distribution Strategy (Top 50 players)**
+-  **Fairness Analysis** of loyalty system and improvement suggestions
 
 ---
 
@@ -72,7 +72,7 @@ Loyalty Points =
 
 ---
 
-## 🧠 Learnings
+## Learnings
 
 - Real-world data cleaning (non-standard headers, slot segmentation)
 - Translating business logic into Pythonic functions
@@ -80,9 +80,9 @@ Loyalty Points =
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
-### 🔹 Slot-Based Loyalty Points (Part A – Q1)
+### Slot-Based Loyalty Points (Part A – Q1)
 
 The system calculates loyalty points based on specific dates and time slots (S1 / S2).
 
@@ -90,7 +90,7 @@ The system calculates loyalty points based on specific dates and time slots (S1 
 
 ---
 
-### 🔹 Monthly Loyalty Leaderboard (Part A – Q2)
+### Monthly Loyalty Leaderboard (Part A – Q2)
 
 This leaderboard ranks users based on loyalty points earned throughout the month.
 
@@ -98,7 +98,7 @@ This leaderboard ranks users based on loyalty points earned throughout the month
 
 ---
 
-### 🔹 Bonus Distribution to Top 50 Players (Part B)
+### Bonus Distribution to Top 50 Players (Part B)
 
 Bonus of ₹50,000 is distributed proportionally to the top 50 users based on their loyalty points.
 
@@ -106,7 +106,7 @@ Bonus of ₹50,000 is distributed proportionally to the top 50 users based on th
 
 ---
 
-## 📌 Tags
+## Tags
 
 `python` `data-analysis` `loyalty-system` `gspread` `rewards` `google-colab` `gamification` `slot-analysis` `ranking` `pandas`
 
